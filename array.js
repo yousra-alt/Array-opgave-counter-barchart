@@ -11,12 +11,10 @@ function start() {
 
 function countUp() {
   liste.unshift(count);
-    count++;
+  count++;
   console.log(liste);
 
-  if ((liste.length === 9)) {
+  if (liste.length === 9) {
     liste.pop();
   }
 }
-
-
